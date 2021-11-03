@@ -1,6 +1,6 @@
 {
-    "short_name": "Demo",
-    "name": "Web App Manifest Demo",
+    "short_name": "BudgetSmart",
+    "name": "Web App Budget Smart",
     "icons": [
       {
         "src": "/assets/images/icons-192.png",
