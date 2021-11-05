@@ -1,18 +1,17 @@
-const CACHE_NAME = "static-cache-v1";
-const DATA_CACHE_NAME = "data-cache-v1";
-
 const FILES_TO_CACHE = [
     // Add cache files here
     "/",
-    "/manifest.webmanifest",
-    
-    "/index.html",
-    "/index.js",
-    "/style.css",
-    "/db.js",
-    "/icons/icon-192x192.png",
-    "/icons/icon-512x512.png"
+    "./manifest.webmanifest",
+    "./index.html",
+    "./index.js",
+    "./style.css",
+    "./db.js",
+    "./icons/icon-192x192.png",
+    "./icons/icon-512x512.png"
 ];
+
+const CACHE_NAME = "static-cache-v1";
+const DATA_CACHE_NAME = "data-cache-v1";
 
 // Add event listener for install 19.2.12
     // skipwaiting
