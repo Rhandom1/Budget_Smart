@@ -40,6 +40,8 @@
   
   ## Usage
   Set up through Mongo Atlas and deployedthrough Heroku. Add or subtract finances and track your budget through the graph.
+
+  ![Atlas & Heroku functionality](/images/AtlasHeroku deploy.png)
   
   ### Testing
   npm test
