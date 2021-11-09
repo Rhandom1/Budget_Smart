@@ -1,71 +1,75 @@
-# Unit 19: Web Performance
 
-## Overview
+  
+  [![Contributors][contributors-shield]][contributors-url]
+  [![Forks][forks-shield]][forks-url]
+  [![Stargazers][stars-shield]][stars-url]
+  [![Issues][issues-shield]][issues-url]
+  
+  
 
-In this unit we will cover measuring and optimizing the performance of web applications. Today many users around the world access the web from older mobile devices on slower connections. As web applications continue to grow both in size and complexity, so do their load times. In order to ensure all users have a good experience, optimizing performance is an important consideration.
+  <details open="open">
+    <summary>Table of Contents</summary>
+    <ol>
+      <li>
+        <a href="#about-the-project">Usage</a>
+        <ul>
+          <li><a href="#description">Description</a></li>
+          <li><a href="#built-with">Dependencies</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#getting-started">Testing</a>
+        <ul>
+          <li><a href="#test">Test</a></li>
+          <li><a href="#installation">Installation</a></li>
+        </ul>
+      </li>  
+      <li><a href="#contributing">Contributing</a></li>
+      <li><a href="#license">License</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#acknowledgements">Acknowledgements</a></li>
+    </ol>
+  </details>
+  
+  
+  ## Description
+  Track your finances even offline!
+  
+  ### Dependencies
+  See package.json file for a complete list
+  
+  ## Usage
+  Set up through Mongo Atlas and deployedthrough Heroku. Add or subtract finances and track your budget through the graph.
+  
+  ### Testing
+  npm test
+  
+  ### Installation
+  npm 1
 
-Chrome Devtools and Google Lighthouse will be our primary tools for measuring web application performance. Devtools allows us to monitor network traffic and inspect the size of resources downloaded to the browser such as HTML, CSS, JavaScript and images. Lighthouse provides a performance scoring system based on metrics such as application bundle size, time to interaction, time to first meaningful paint, and more.
+  ## Contributing
+  Please contact the creator.
+  
+  ## License
+  Unlicensed
 
-In order to deliver smaller application bundle sizes to the client, we'll perform several optimizations that involve compressing assets. This includes minifying JavaScript and CSS files, as well as compressing images. Another technique utilized to improve initial bundle size will be lazy loading, where we will defer loading certain assets until they're needed by the application.
+  ## Contact
+  
+  Your Name - Rhandom1
+  
+  Email: shawnmc820@gmail.com
+  
+  <!-- MARKDOWN LINKS & IMAGES -->
+  <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+  [contributors-shield]: https://img.shields.io/github/contributors/Rhandom1/Budget_Smart.svg?style=for-the-badge
+  [contributors-url]: https://github.com/Rhandom1/Best-README-Template/graphs/contributors
+  [forks-shield]: https://img.shields.io/github/forks/Rhandom1/Budget_Smart.svg?style=for-the-badge
+  [forks-url]: https://github.com/Rhandom1/Best-README-Template/network/members
+  [stars-shield]: https://img.shields.io/github/stars/Rhandom1/Budget_Smart.svg?style=for-the-badge
+  [stars-url]: https://github.com/Rhandom1/Best-README-Template/stargazers
+  [issues-shield]: https://img.shields.io/github/issues/Rhandom1/Budget_Smart.svg?style=for-the-badge
+  [issues-url]: https://github.com/Rhandom1/Best-README-Template/issues
+  
+  [product-screenshot]: images/screenshot.png
+  
 
-This unit will also focus on Progressive Web Apps (PWAs). Progressive web apps aim to blend the benefits of a traditional browser experience with those of a mobile application. PWAs may utilize the Service Worker and Cache APIs to cache assets and API responses to ensure applications work without an internet connection.
-
-We'll conclude this unit with an overview of webpack, a module bundler for JavaScript. Webpack eases the development of front end web applications by automating many of the optimizations performed earlier in the unit.
-
-## Key Topics
-
-* Lighthouse
-
-* Lazy Loading
-
-* Minification
-
-* Compression
-
-* PWAs
-
-* Service Workers
-
-* Webpack
-
-## Comprehension Check
-
-You will be employer-ready if you can answer the following questions:
-
-1. What tools can be used to measure performance of a web application?
-
-2. What are some metrics that matter when measuring web application performance?
-
-3. What is a PWA?
-
-## Learning Objectives
-
-You will be employer-competitive if you are able to:
-
-* Identify performance bottlenecks in web applications.
-
-* Explain how performance can be measured in web applications.
-
-* Explain the 5 main categories measured in a Lighthouse audit.
-
-* Optimize CSS, JS, and media assets for performance.
-
-* Set up webpack in a new front end project.
-
-* Convert an existing web application to a PWA and add offline functionality.
-
-## Homework: Budget Tracker
-
-* In this assignment, you'll build a budgeting app to keep track of personal finances. You'll utilize IndexedDB, cache API, and Service Workers to provide an offline experience for the application.
-
-## Helpful Links
-
-* [Why Performance Matters](https://developers.google.com/web/fundamentals/performance/why-performance-matters/)
-
-* [Measure Web Performance With The RAIL Model](https://developers.google.com/web/fundamentals/performance/rail)
-
-* [Audit the Performance of Your Web Application](https://developers.google.com/web/fundamentals/performance/audit/)
-
-* [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/)
-
-* [Your First Progressive Web App](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/)
